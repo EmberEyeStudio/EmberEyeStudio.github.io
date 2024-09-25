@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/index.css">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/lightbox.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
@@ -151,16 +154,16 @@
                     <div class="col-lg-12 py-5 col-md-12 col-12 ">
                         <div class="col-lg-12 d-lg-row d-md-flex d-sm-row " data-aos="fade-up" data-aos-delay="250">
                             <div class="team-thumb">
-                                <img src="images/game1.png" class="img-fluid" style="padding: 20px;" alt="gamePic">
+                                <img src="images/game1.png" class="img-fluid" style="padding: 20px;" alt="gamePic" onclick="openImg(this)">
                             </div>
                             <div class="team-thumb">
-                                <img src="images/game2.png" class="img-fluid" style="padding: 20px;" alt="gamePic">
+                                <img src="images/game2.png" class="img-fluid" style="padding: 20px;" alt="gamePic" onclick="openImg(this)">
                             </div>
                             <div class="team-thumb">
-                                <img src="images/game3.png" class="img-fluid" style="padding: 20px;" alt="gamePic">
+                                <img src="images/game3.png" class="img-fluid" style="padding: 20px;" alt="gamePic" onclick="openImg(this)">
                             </div>
                             <div class="team-thumb">
-                                <img src="images/game4.png" class="img-fluid" style="padding: 20px;" alt="gamePic">
+                                <img src="images/game4.png" class="img-fluid" style="padding: 20px;" alt="gamePic" onclick="openImg(this)">
                             </div>
                         </div>
                     </div>
@@ -221,11 +224,29 @@
         </div>
     </footer>
 
+
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img id="gameImage" class="img-fluid" alt="Game Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/openImg.js"></script>
 
 </body>
 

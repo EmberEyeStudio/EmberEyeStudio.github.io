@@ -388,6 +388,7 @@
   .team-thumb {
     position: relative;
     width: 100%;
+    cursor: pointer;
   }
 
   .contact{

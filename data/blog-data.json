@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Exploring Game Development",
+    "author": "Jane Doe",
+    "date": "2024-11-01",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.",
+    "image": "images/publisher1.jpg"
+  },
+  {
+    "title": "AI in Modern Gaming",
+    "author": "John Smith",
+    "date": "2024-11-02",
+    "content": "Aliquam ac eros quis diam pharetra vulputate. Nullam bibendum sem eget magna feugiat.",
+    "image": "images/publisher2.jpg"
+  }
+]
